@@ -11,13 +11,21 @@ export const routeList = [
         path: '/',
         redirect: '/login'
     },
-    
+
+    {
+        path: '/test/layout',
+        component: pipe('test/layout/index'),
+    },
+    {
+        path: '/test/home',
+        component: pipe('test/layout/home'),
+    },
     {
         path: '/login',
         component: pipe('login'),
         meta: {
             header: {
-                title: '登录7777',
+                title: '登录',
             },
 
         }

@@ -1,6 +1,6 @@
 <template>
     <mt-header :title="title">
-        <mt-button v-if="isBack" icon="back" slot="left" @click="goBack">返回</mt-button>
+        <mt-button v-if="isBack" icon="back" slot="left" @click="goBack"></mt-button>
     </mt-header>
 </template>
 
